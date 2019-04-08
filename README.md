@@ -1,1 +1,1 @@
-# vue-mastery
+# Vue Mastery course
