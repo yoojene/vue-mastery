@@ -2,11 +2,6 @@
   <div>
     <img alt="Vue logo" src="../assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
-    <button @click="getNewton($event)">Click me</button>
-
-    <div v-show="newtonData.length > 0">
-      {{ newtonData }}
-    </div>
   </div>
 </template>
 
@@ -30,6 +25,4 @@ export default {
     HelloWorld
   }
 };
-
-console.log(Newton.methods.getNewtonConfig());
 </script>
